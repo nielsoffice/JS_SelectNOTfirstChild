@@ -14,6 +14,7 @@ jQuery(() => {
  selectNotFirst.prototype.insertClass = function( $class ) {
    return $class;
  }
+
  selectNotFirst.prototype.init = function() {
 	
   let objectData  = this.target;
